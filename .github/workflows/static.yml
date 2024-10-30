@@ -1,0 +1,53 @@
+<html>
+    <body>
+        <header>
+            <title>Website Sederhana</title>
+            <link rel="stylesheet" href="style/style.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="Konten1">Konten 1</a></li>
+                    <li><a href="konten2">Konten 2</a></li>
+                    <li><a href="Konten3">Konten 3</a></li>
+                    <li><a href="Konten4">Konten 4</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img src="cover/cover kucing.jpg" class="cover-image">
+            </div>
+        </header>
+
+        <main>
+            <div id="content">
+               <article id="Konten1" class="card">
+                 <h2>Konten 1</h2>
+                 <img src="cover/Kucing Anggora.jpg" class="featured-image" alt="Konten1">
+                 <p>konten 1 adalah konten tentang kucing anggora.</p>
+               </article>  
+
+               <article id="konten2" class="card">
+                 <h2>Konten 2</h2>
+                  <img src="cover/kucing bombay.jpg" class="featured-image" alt="konten2">
+                 <p>konten 2 adalah konten tentang kucing bombay.</p>
+               </article>  
+
+               <article id="Konten3" class="card">
+                 <h2>Konten 3</h2>
+                  <img src="cover/Kucing kampung.jpg" class="featured-image" alt="konten3">
+                  <p>konten 3 adalah konten tentang kucing kampung.</p>
+               </article>  
+
+               <article id="Konten4" class="card">
+                 <h2>Konten 4</h2>
+                 <img src="cover/kucing siam.jpg" class="featured-image" alt="konten4">
+                 <p>konten 4 adalah konten tentang kucing siam.</p>
+               </article> 
+            </div>
+        </main>
+        <footer>
+            <p>made with &#169;2024. Kucing kucing.</p>
+        </footer>
+    </body>
+</html>
